@@ -1,0 +1,32 @@
+html{
+    font-size: 1.5em;
+}
+
+body{
+    background-image: url(img/bg.webp);
+    background-size: cover;
+}
+.card{
+    box-shadow: 8px 2px 8px grey;
+    background-color: white;
+    padding: 1.5em;
+    display: inline-block;
+    margin: 15em 1.5em 1.5em 1.5em;
+    width: 20em;
+}
+
+.obličej{
+    width: 50%;
+    aspect-ratio: 1/1;
+    height: auto;
+    object-fit: cover;
+    object-position: 0% 0%;
+    box-shadow: 0 0 4px grey;
+    margin: auto;
+    display: block;
+    margin-top: calc(-30% - 1em);
+    border-radius: 100%;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+}
